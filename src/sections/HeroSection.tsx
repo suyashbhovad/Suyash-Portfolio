@@ -74,7 +74,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onTriggerWave }) => {
           {/* Large Heading */}
       <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold font-['Syne',sans-serif] tracking-tight text-white leading-[1.1]">
         Hi, I'm <br />
-        <span className="inline-block whitespace-nowrap text-3xl sm:text-5xl lg:text-6xl bg-gradient-to-r from-[#FFFFFF] via-[#E2E8F0] to-[#8B5CF6] bg-clip-text text-transparent">
+        <span className="inline-block max-w-full text-[clamp(2rem,9vw,3.75rem)] break-words bg-gradient-to-r from-[#FFFFFF] via-[#E2E8F0] to-[#8B5CF6] bg-clip-text text-transparent">
           {PERSONAL_INFO.name}
         </span>
       </h1>
