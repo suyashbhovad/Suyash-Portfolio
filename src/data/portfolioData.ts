@@ -343,31 +343,5 @@ export const CERTIFICATES: CertificateItem[] = [
 ];
 
 export const INITIAL_REVIEWS: ReviewItem[] = [
-  {
-    id: "rev-1",
-    name: "Elena Rostova",
-    role: "VP of Product Design",
-    company: "Horizon Cybernetics",
-    rating: 5,
-    comment: "Suyash is that rare unicorn developer who possesses deep software engineering discipline while demonstrating an intuitive mastery of 3D motion, shaders, and micro-interactions. The robot mascot and smooth scroll interactions are genuinely world-class.",
-    date: "September 2026"
-  },
-  {
-    id: "rev-2",
-    name: "Marcus Vance",
-    role: "Founder & CEO",
-    company: "CyberVolt Studios",
-    rating: 5,
-    comment: "Working with Suyash was phenomenal. He transformed our complex product idea into a cinematic cyberpunk web application that blew our investors away. Fast communication, immaculate TypeScript code, and unbelievable attention to detail.",
-    date: "August 2026"
-  },
-  {
-    id: "rev-3",
-    name: "Priya Nair",
-    role: "Lead Systems Architect",
-    company: "Starlight Digital",
-    rating: 5,
-    comment: "His grasp of performance optimization in Three.js and React is top tier. He maintained rock-solid 60 FPS while rendering high-detail models and audio synthesizers. I'd hire him again in a heartbeat.",
-    date: "July 2026"
-  }
+
 ];
